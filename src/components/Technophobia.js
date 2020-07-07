@@ -8,7 +8,6 @@ function Technophobia(){
     return (
         <div>
             <Hexes />
-            <Footer />
         </div>
     )
   }

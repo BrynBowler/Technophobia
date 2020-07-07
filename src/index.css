@@ -14,7 +14,7 @@ code {
 
 body{
   margin: 0%;
-  background-color: #fdca40;
+  background-color: #31393C;
 }
 
 #header{
@@ -43,8 +43,10 @@ p{
 }
 
 footer{
-  width: 100%;
-  padding: 1%;
+  position: absolute;
+  bottom: 0%;
+  width: 99.6%;
+  padding: 0.2%;
   text-align: center;
   background-color: #31393c;
 }
