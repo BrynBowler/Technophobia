@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-import Technophobia from './components/Technophobia'
+import App from './App.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Technophobia />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

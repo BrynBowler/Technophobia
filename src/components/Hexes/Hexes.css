@@ -60,6 +60,7 @@
     top: 480px;
     left: 523px;
     z-index: 1;
+    cursor: pointer;
 }
 
 #ReadImage:Hover {
@@ -85,6 +86,7 @@
     top: 172px;
     left: 523px;
     z-index: 1;
+    cursor: pointer;
 }
 
 #SocialMediaImage:Hover {
@@ -109,6 +111,7 @@
     top: 635px;
     left: 785px;
     z-index: 1;
+    cursor: pointer;
 }
 
 #WatchImage:Hover {
@@ -134,6 +137,7 @@
     top: 480px;
     left: 1047px;
     z-index: 1;
+    cursor: pointer;
 }
 
 #LearnImage:Hover {
@@ -159,6 +163,7 @@
     top: 172px;
     left: 1047px;
     z-index: 1;
+    cursor: pointer;
 }
 
 #PlayImage:Hover {
@@ -184,6 +189,7 @@
     top: 17px;
     left: 785px;
     z-index: 1;
+    cursor: pointer;
 }
 
 #ShopImage:Hover {

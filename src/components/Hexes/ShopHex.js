@@ -4,7 +4,9 @@ import { Spring } from 'react-spring/renderprops';
 
 import './Hexes.css';
 
-function ShopHex(){
+class ShopHex extends React.Component {
+  
+  render(){
     return (
       <Spring
         from={{ opacity: 0 }}
@@ -17,13 +19,13 @@ function ShopHex(){
               <div class="Hex" id="Shop">
                   <h2>Shop</h2>
               </div>
-              <div class="Hex" id="ShopImage">
-                <h2>Shop</h2>
+              <div onClick={this.props.ShopToggle} class="Hex" id="ShopImage">
+                <h2 id="ShopButton">Shop</h2>
               </div>
             </div>
           </div>
         )}
-      </Spring>     
+      </Spring>
     )}
+  }
 export default ShopHex
-            
